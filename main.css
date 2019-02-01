@@ -1,0 +1,45 @@
+
+.creator { position: fixed; top:0; left: 0; width: 250px; height: 100vh; background: #ffffff; }
+
+.btn { 
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    box-shadow: 0 2px 2px 0px #d6d6d6;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: #d6d6d6;
+}
+
+.btn:active, .btn:focus {
+    outline: none;
+}
+
+tr:hover {
+    position: relative;
+    outline: 1px solid red;
+}
+
+form {
+    margin-top: 5em;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a2a2a2;
+    padding: 8px 12px;
+    margin: 10px 0;
+}
+
+@media (max-width: 1200px) {
+    .creator { display: none; }
+}
